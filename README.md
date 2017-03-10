@@ -1,2 +1,2 @@
-# red-gorilla-productions
-my personal page
+Red Gorilla Production
+A fictional production company
