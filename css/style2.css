@@ -43,6 +43,7 @@ nav ul a {
 }
 
 h1 a:visited span,
+h1 a:active span,
 h1 a:hover span,
 h1 a:focus span {
 	color: #CF4647;
