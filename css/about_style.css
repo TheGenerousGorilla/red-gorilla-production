@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'AlfaSlab';
+	src: url(../fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url(../fonts/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: 'MissionScript';
+	src: url(../fonts/Mission-Script.otf);
+}
+/* GOOGLE FONTS */
+
+body {
+	font-family: sans-serif;
+	color: #524656;
+	background-color: #1f1b21;
+	margin: 1.483679525222552% 6.305637982195846%; /* 20/1348 and 85/1348 */
+}
+
+
+/* HEADER */
+header {
+	padding: 0.625em; /* 10/16 */
+	padding-top: 1.25em; /* 20/16 */
+	margin-bottom: 2.5em; /* 40/16 */
+}
+
+h1 {
+	font-family: 'AlfaSlab';
+	font-size: 1.5em; /* 24/16 */
+	font-weight: normal;
+	float: left;
+	letter-spacing: .02em;
+}
+
+h1 a,
+nav ul a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+h1 a:hover span,
+h1 a:focus span {
+	color: #CF4647;
+}
+
+nav ul {
+	float: right;	
+}
+
+nav ul li {
+	float: left;
+	margin-left: 0.3125em; /* 5/16 */
+	font-weight: bold;	
+	list-style: none;
+}
+
+nav ul a {
+	padding: 0.3125em 0.75em; /* 5/16 and 12/16 */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	color: #1f1b21;
+	background-color: whitesmoke;
+}
+/* end of HEADER */
+
+/* MAIN CONTENT */
+main {
+	background-color: #E1B866;
+	color: whitesmoke;
+}
+
+#content {
+	padding: 50px 150px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+h2 span {
+	color: #CF4647;
+	font-weight: bold;
+}
+
+#about p{
+	padding: 5px 0;
+}
+
+#profile {
+	margin: 20px 0;
+}
+
+#profile li {
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+	background-color: #524656;
+	font-weight: bold;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#profile li:hover {
+	-webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#profile li a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+
+/* MEET */
+#meet {
+	padding: 50px 0;
+}
+
+#meet h3 {
+	font-family: 'BebasNeue';
+	font-weight: normal;
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+
+#crew section {
+	margin-bottom: 30px;
+	color: #524656;
+}
+
+#crew h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#crew p {
+	margin-bottom: 3px;
+}
+
+#crew p a{
+	text-decoration: none;
+	color: #524656;
+	padding-bottom: 3px;
+}
+
+#crew p a:hover {
+	border-bottom: 0.05em dotted #524656;
+}
+
+#crew ul li {
+	display: inline-block;
+	padding: 5px 5px 0 0;
+}
+/* end of MEET */
+/* end of MAIN CONTENT */
+
+
+/* FOOTER */
+footer {
+	background-color: #CF4647;
+	padding: 0.8488964346349745% 1.697792869269949%; /* 10/1178 and 20/1178 */
+	overflow: auto;
+}
+
+footer ul {
+	float: left;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 0.625em; /* 10/16 */
+}
+
+footer ul li a {
+	opacity: 0.25;
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+	opacity: 0.75;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+footer p {
+	float: right;
+	color: #F2E6DD;
+	padding-top: 0.8488964346349745%; /* 10/1178 */
+}
+/* end of FOOTER */
